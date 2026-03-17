@@ -2,6 +2,31 @@
 
 Franklink is an iMessage-based AI career and networking assistant. It ingests inbound messages from Photon, routes direct messages through a FastAPI + LangGraph application, and handles managed group chats, match introductions, and proactive background jobs on top of Supabase, Azure OpenAI, Zep, Kafka, and Composio.
 
+## Why we built it
+
+Professional networking is still too manual, too cold, and too badly timed for the moments when people actually need help. Most students and early-career builders do not need a giant social graph. They need the right introduction, resource, or small group at the exact moment they are preparing for an interview, looking for collaborators, planning an event, or trying to learn from peers with adjacent experience.
+
+Franklink is built to turn the messaging channel people already use into a higher-leverage networking layer. Instead of asking users to maintain another profile or browse a directory, Franklink uses conversational context, inbox signals, shared interests, location, and demand/value matching to help people meet the right person faster.
+
+## Problem it solves
+
+Franklink is designed around a few concrete failures in traditional networking products:
+
+- Useful people are hard to discover at the moment of need.
+- Existing professional networks are optimized for broadcasting, not warm introductions or small-group coordination.
+- Valuable context lives in scattered places like texts, inboxes, schools, events, and calendars instead of one structured profile.
+- Group chats form organically, but they rarely get help with expansion, follow-up, scheduling, or keeping momentum.
+- A generic chatbot can answer questions, but it usually cannot coordinate introductions, context-aware outreach, and group formation inside the communication tools people already use.
+
+## Core use cases
+
+- A student wants a mock interviewer, mentor, recruiter insight, or referral path for a specific role.
+- A founder or builder wants collaborators for a project, hackathon, or startup idea.
+- A user wants relevant opportunities or resources based on their interests, school, inbox activity, or event context.
+- An existing group chat wants Frank to find and invite one more person who fits the group goal.
+- A conversation has gone quiet and needs a useful follow-up, summary, or scheduling nudge instead of more manual coordination.
+- A user wants their networking context to improve over time as Franklink learns from onboarding, email signals, location updates, and prior conversations.
+
 ## What the app does
 
 - Runs direct-message flows for onboarding, recommendation, networking, updates, and general chat.
